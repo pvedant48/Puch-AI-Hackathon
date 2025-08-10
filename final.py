@@ -80,6 +80,11 @@ async def get_leetcode_daily_problem() -> dict:
             }
     return {}
 
+# --- Tool: validate (required by Puch) ---
+@mcp.tool
+async def validate() -> str:
+    return MY_NUMBER
+
 # ====== DSA Tools ======
 @mcp.tool(description=RichToolDescription(
     description="Get today's DSA problem from LeetCode",

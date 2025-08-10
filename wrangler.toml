@@ -1,4 +1,0 @@
-name = "dsa-and-stream-finder-tool"
-main = "final.py"  # entry point script of your Worker
-compatibility_date = "2025-08-10"
-compatibility_flags = ["python_workers"]
